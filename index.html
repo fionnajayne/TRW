@@ -50,10 +50,19 @@
       </div>
     </div>
 
-    <!-- Background music -->
-<audio id="bg-music" controls loop style="display: none">
-  <source src="harry-bg.mp3" type="audio/mpeg">
-</audio>
+     <!-- Background music -->
+  <audio id="bg-music" controls loop style="display: none">
+    <source src="harry-bg.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var audio = document.getElementById("bg-music");
+      audio.play();
+    });
+  </script>
+</body>
+</html>
 
     <div class='content-wrapper'>
       <div class='content'>
